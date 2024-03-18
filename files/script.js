@@ -17,3 +17,12 @@ window.addEventListener("scroll",() =>{
         toTop.classList.remove("active");
     }
 })
+
+document.getElementById('mobileMenuIcon').addEventListener('click', function() {
+    var menuItems = document.querySelector('.menu-items');
+    if (menuItems.style.display === 'block') {
+        menuItems.style.display = 'none';
+    } else {
+        menuItems.style.display = 'block';
+    }
+});

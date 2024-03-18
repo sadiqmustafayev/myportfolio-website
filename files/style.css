@@ -40,6 +40,50 @@ body {
     animation: slideRight 1s ease forwards;
 }
 
+
+.menu-icon {
+    display: none; 
+    float: right;
+}
+
+.menu-items {
+    float: right;
+}
+
+.menu-items a {
+    display: inline-block; 
+    margin-left: 10px;
+}
+
+@media (max-width: 768px) {
+    .menu-icon {
+        display: inline-block; 
+        background: none;
+        border: none;
+        padding: 10px;
+        cursor: pointer;
+    }
+
+    .menu-icon i {
+        font-size: 24px;
+    }
+
+    .menu-items {
+        display: none; 
+    }
+}
+
+@media (max-width: 768px) {
+    .menu-items {
+        display: none;
+    }
+
+    .menu-icon {
+        display: inline-block; 
+    }
+}
+
+
 .navbar a {
     display: inline-block;
     font-size: 25px;
