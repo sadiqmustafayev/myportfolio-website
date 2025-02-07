@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Portfolio</title>
-        <link rel="shortcut icon" type="image/png" href="ic.png">
+        <link rel="shortcut icon" type="image/png" href="./img/ic.png">
         <link rel="stylesheet" href='./files/style.css'>
         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
         <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
@@ -45,11 +45,19 @@
                 </div>
 
                 <div class="home-sci">
-                    <a href="https://www.linkedin.com/in/sadiq-mustafayev-48901b271?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"style="--i:7" target="_blank"><i class='bx bxl-linkedin'></i></a>
-                    <a href="https://www.instagram.com/sadiq_mustafayev_020?igsh=ZDV0cGplZTN5NA=="style="--i:8" target="_blank"><i class='bx bxl-instagram' ></i></a>
-                    <a href="https://github.com/sadiqmustafayev"style="--i:10" target="_blank"><i class='bx bxl-github'></i></a>
+                    <a href="#" style="--i:7" onclick="openEncodedLink('aHR0cHM6Ly93d3cubGlua2VkaW4uY29tL2luL3NhZGlxLW11c3RhZmF5ZXYtNDg5MDFiMjcx')">
+                        <i class='bx bxl-linkedin'></i>
+                    </a>
+                    <a href="#" style="--i:8" onclick="openEncodedLink('aHR0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9zYWRpcTAyMF8=')">
+                        <i class='bx bxl-instagram'></i>
+                    </a>
+                    <a href="#" style="--i:10" onclick="openEncodedLink('aHR0cHM6Ly9naXRodWIuY29tL3NhZGlxbXVzdGFmYXlldg==')">
+                        <i class='bx bxl-github'></i>
+                    </a>
                 </div>
-                <a href="https://drive.google.com/file/d/1o4MnyNgn2XqBninwbSPeFJCUbxJIwhov/view?usp=drive_link" style="--i:11" class="btn-box" target="_blank">Download CV</a>
+                
+                
+                <a href="https://drive.google.com/file/d/1Qf-TCBW0StAaVRm4h77O1XgsXP_tG140/view?usp=sharing" style="--i:11" class="btn-box" target="_blank">Download CV</a>
             </div>
         </section>
 
@@ -64,7 +72,7 @@
                     <p>Hello my name is Sadiq. I was born Ganja city. I'm a student.I'm a Developer.I know html, css, js, python. Use Python Django Framework. And I learn IT other fields. Along with my degree, I completed Python, PostgreSQL, MYSql, Full Stack Python courses and various technologies. I am currently seeking roles where I can utilize my experience and skills.
                         <br>
                         <br>
-                        <a href="https://drive.google.com/file/d/1o4MnyNgn2XqBninwbSPeFJCUbxJIwhov/view?usp=drive_link" style="--i:11" class="abtbtn-box" target="_blank">Download CV</a>
+                        <a href="https://drive.google.com/file/d/1Qf-TCBW0StAaVRm4h77O1XgsXP_tG140/view?usp=sharing" style="--i:11" class="abtbtn-box" target="_blank">Download CV</a>
                     </p>
                 </div>
             </div>
@@ -114,9 +122,9 @@
                             </div>
                         </div>
 
-                        <div class="bar"><i class='bx bxl-php'style="color: #3db2fc;"></i>
+                        <div class="bar"><i class='bx bxl-react'style="color: #3db2fc;"></i>
                             <div class="info">
-                                <span>PHP <span class="addc"></span></span>
+                                <span>React <span class="addc"></span></span>
                             </div>
                             <div class="progress-line cpls">
                                 <span></span>
@@ -173,39 +181,8 @@
             <div id="portfolio" class="services">
                 <div class="main-text" id="serv">
                     <h2>My <span>Projects</span></h2>
-                    <div class="serv-container">
-                        <div class="row">
-                            <img src="./img/FMD.png">
-                            <div class="layer">
-                                <h5>Face Mask Detection</h5>
-                                <p>Face mask of the people are detected by using OpenCV, Python and find out the person without mask.</p>
-
-                                <a href="#"><i class='bx bxs-face-mask' style="color: aliceblue;"></i></a>
-
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <img src="./img/DD.png">
-                            <div class="layer">
-                                <h5>Drowsiness Detection</h5>
-                                <p>The face of the driver is captured and eye is detected by OpenCV, Python. If eye is closed alarm rings.</p>
-
-                                <a href="#"><i class='bx bxs-low-vision' style="color: aliceblue;"></i></a>
-                                
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <img src="./img/DA.png">
-                            <div class="layer">
-                                <h5>Desktop Application</h5>
-                                <p>A windows application to manage the work of the staff’s in the company by using Python Tkinter and SQL.</p>
-
-                                <a href="#"><i class='bx bx-desktop' style="color: aliceblue;"></i></a>
-                                
-                            </div>
-                        </div>
+                    <div class="serv-container" id="projects-container">
+                        <!-- JavaScript ilə layihələr buraya əlavə olunacaq -->
                     </div>
                 </div>
             </div>
@@ -248,10 +225,10 @@
                     <li><i class='bx bxs-send'></i>mustafaevsadiq22@gmail.com</li> 
                 </div>
                 <div class="contact-icons">
-                    <a href="https://github.com/sadiqmustafayev" target="_blank"><i class='bx bxl-github'></i></a> 
-                    <a href="https://www.instagram.com/sadiq_mustafayev_020?igsh=ZDV0cGplZTN5NA==" target="_blank"><i class="bx bxl-instagram"></i></a>
-                    <a href="https://www.linkedin.com/in/sadiq-mustafayev-48901b271?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="bx bxl-linkedin"></i></a>
-                </div>
+                    <i class='bx bxl-github' onclick="openEncodedLink('aHR0cHM6Ly9naXRodWIuY29tL3NhZGlxbXVzdGFmYXlldg==')"></i> 
+                    <i class="bx bxl-instagram" onclick="openEncodedLink('aHR0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9zYWRpcTAyMF8=')"></i>
+                    <i class="bx bxl-linkedin" onclick="openEncodedLink('aHR0cHM6Ly93d3cubGlua2VkaW4uY29tL2luL3NhZGlxLW11c3RhZmF5ZXYtNDg5MDFiMjcx')"></i>
+                </div>                
             </div>
             
         </section>
@@ -262,6 +239,7 @@
         <a href="#Home" class="top"><i class='bx bx-up-arrow-alt' ></i></a>
 
         <script src="./files/script.js"></script>
+        <script src="files/project.js"></script>
     </body>  
 </html>
 

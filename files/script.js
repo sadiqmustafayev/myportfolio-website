@@ -26,3 +26,14 @@ document.getElementById('mobileMenuIcon').addEventListener('click', function() {
         menuItems.style.display = 'block';
     }
 });
+
+function openEncodedLink(encodedUrl) {
+    let url = atob(encodedUrl); 
+    window.location.href = url;
+}
+
+function openEncodedLink(encodedUrl) {
+    let url = atob(encodedUrl); 
+    window.open(url, "_blank");
+}
+
